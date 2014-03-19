@@ -1,0 +1,11 @@
+{
+	"name": "denvers/reporter",
+	"description": "Easily send debug messages to your INBOX",
+	"keywords": ["denvers", "reporter"],
+	"license": "Apache License v2",
+	"require": {
+		"zendframework/zend-mail": "2.3.*@dev"
+	},
+	"require-dev": {
+	}
+}
