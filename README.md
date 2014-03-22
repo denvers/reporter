@@ -10,7 +10,7 @@ Install using [Composer](https://getcomposer.org/).
 ```php
 // Include the composer autoloader once and the Reporter is available to you!
 
-denvers\Reporter::report("denver@dsinternet.nl", "Something to remember", "User did something we need to investigate", array("variable1", "key" => "variable2"));
+denvers\Reporter::report("your@emailaddress.com", "Something to remember", "User did something we need to investigate", array("variable1", "key" => "variable2"));
 ```
 
 ## Example report

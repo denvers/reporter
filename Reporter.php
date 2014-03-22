@@ -6,7 +6,7 @@ require_once( dirname(__FILE__) . "/vendor/autoload.php" );
 /**
  * Class Reporter
  *
-  * @usage Reporter::report("your@emailaddress.com", "Something to remember", "User did something we need to investigate");
+ * @usage Reporter::report("your@emailaddress.com", "Something to remember", "User did something we need to investigate");
  * @usage Reporter::report("your@emailaddress.com", "Something to remember", "User did something we need to investigate", array("variable1", "key" => "variable2"));
  */
 class Reporter
