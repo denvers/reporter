@@ -4,7 +4,8 @@
 	"keywords": ["denvers", "reporter"],
 	"license": "Apache License v2",
 	"require": {
-		"zendframework/zend-mail": "2.3.*@dev"
+        "phpmailer/phpmailer": "5.2.*",
+        "filp/whoops": "1.1.*@dev"
 	},
 	"require-dev": {
 	}
