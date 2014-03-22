@@ -4,7 +4,7 @@ reporter
 Report (error) messages to given emailaddress using given subject and message. This reporter will automatically add relevant environment variables so you don't have to think about that every time.
 
 ## Install
-Install using [Composer](https://getcomposer.org/).
+Install using [Composer](https://getcomposer.org/). *Reporter* is available as a package via [Packagist](https://packagist.org/packages/denvers/reporter), so just include *Reporter* in the `composer.json` file of your project, run `composer update` and you are ready to go!
 
 ## Usage
 ```php
