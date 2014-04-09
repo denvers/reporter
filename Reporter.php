@@ -1,8 +1,5 @@
 <?php namespace denvers;
 
-require_once( dirname(__FILE__) . "/vendor/autoload.php" );
-
-
 /**
  * Class Reporter
  *
