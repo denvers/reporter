@@ -8,5 +8,10 @@
         "filp/whoops": "1.0.*"
 	},
 	"require-dev": {
-	}
+	},
+    "autoload": {
+        "psr-0": {
+            "Reporter": "src/"
+        }
+    }
 }
