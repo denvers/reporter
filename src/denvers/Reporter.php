@@ -35,7 +35,7 @@ class Reporter
      */
     protected static function generateHTMLReport($title, $message, $extra_vars = array())
     {
-        $helper = new \Whoops\Util\TemplateHelper;
+        $helper = new Whoops\Util\TemplateHelper;
 
         $templateFile = Reporter::getResource("views/layout.html.php");
         $cssFile      = Reporter::getResource("css/whoops.base.css");
